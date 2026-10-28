@@ -1,0 +1,7 @@
+specification_id,purchase_date,unit_price_aed,source
+LAPTOP-A,2025-11-04,2750,synthetic_history
+LAPTOP-A,2025-12-15,2800,synthetic_history
+LAPTOP-A,2026-01-20,2840,synthetic_history
+LAPTOP-A,2026-02-26,2880,synthetic_history
+LAPTOP-A,2026-04-09,2950,synthetic_history
+LAPTOP-A,2026-06-01,3000,synthetic_history

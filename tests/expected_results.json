@@ -1,0 +1,275 @@
+{
+  "config": {
+    "MIN_BIDS_CV": 3,
+    "MIN_BIDS_RD": 4,
+    "CV_LOW": 0.03,
+    "RD_HIGH": 1.0,
+    "SENT_MIN_WORDS": 6,
+    "BOILER_SIM": 90,
+    "SHARED_SIM": 92,
+    "MAX_DOC_FREQ": 2,
+    "BENCH_RATIO": 1.25,
+    "BENCH_MIN_POINTS": 3,
+    "ROT_MIN_TENDERS": 5,
+    "ROT_MIN_GROUP": 3
+  },
+  "precheck": [
+    {
+      "tender_id": "T-101",
+      "bid_id": "B-004",
+      "company_id": "C14",
+      "code": "MISSING_DOCUMENT",
+      "detail": "signed_declaration"
+    },
+    {
+      "tender_id": "T-104",
+      "bid_id": "B-016",
+      "company_id": "C08",
+      "code": "LICENCE_EXPIRED",
+      "detail": "licence expired 2026-08-31, tender closes 2026-09-25"
+    },
+    {
+      "tender_id": "T-104",
+      "bid_id": "B-017",
+      "company_id": "C11",
+      "code": "MISSING_DOCUMENT",
+      "detail": "bank_guarantee"
+    },
+    {
+      "tender_id": "T-108",
+      "bid_id": "B-031",
+      "company_id": "C07",
+      "code": "MISSING_DOCUMENT",
+      "detail": "bank_guarantee"
+    },
+    {
+      "tender_id": "T-109",
+      "bid_id": "B-034",
+      "company_id": "C03",
+      "code": "MISSING_DOCUMENT",
+      "detail": "vat_certificate"
+    },
+    {
+      "tender_id": "T-110",
+      "bid_id": "B-037",
+      "company_id": "C03",
+      "code": "MISSING_DOCUMENT",
+      "detail": "bank_guarantee"
+    }
+  ],
+  "price_features": {
+    "T-101": {
+      "bid_count": 4,
+      "cv": 0.0505,
+      "gap_pct": 0.0349,
+      "rd": 0.7878
+    },
+    "T-102": {
+      "bid_count": 4,
+      "cv": 0.0076,
+      "gap_pct": 0.0073,
+      "rd": 1.3306
+    },
+    "T-103": {
+      "bid_count": 4,
+      "cv": 0.0468,
+      "gap_pct": 0.0353,
+      "rd": 0.8964
+    },
+    "T-104": {
+      "bid_count": 5,
+      "cv": 0.0268,
+      "gap_pct": 0.0319,
+      "rd": 1.5266
+    },
+    "T-105": {
+      "bid_count": 4,
+      "cv": 0.0489,
+      "gap_pct": 0.0373,
+      "rd": 0.8552
+    },
+    "T-106": {
+      "bid_count": 4,
+      "cv": 0.0486,
+      "gap_pct": 0.0378,
+      "rd": 0.8908
+    },
+    "T-107": {
+      "bid_count": 3,
+      "cv": 0.037,
+      "gap_pct": 0.0414,
+      "rd": null
+    },
+    "T-108": {
+      "bid_count": 3,
+      "cv": 0.0508,
+      "gap_pct": 0.0503,
+      "rd": null
+    },
+    "T-109": {
+      "bid_count": 3,
+      "cv": 0.0816,
+      "gap_pct": 0.0823,
+      "rd": null
+    },
+    "T-110": {
+      "bid_count": 4,
+      "cv": 0.0493,
+      "gap_pct": 0.0348,
+      "rd": 0.8125
+    },
+    "T-111": {
+      "bid_count": 3,
+      "cv": 0.0463,
+      "gap_pct": 0.0486,
+      "rd": null
+    },
+    "T-112": {
+      "bid_count": 4,
+      "cv": 0.0515,
+      "gap_pct": 0.0379,
+      "rd": 0.8473
+    }
+  },
+  "mvp": {
+    "alerts": [
+      {
+        "tender_id": "T-102",
+        "code": "PRICE_PATTERN_REVIEW",
+        "severity": "weak"
+      },
+      {
+        "tender_id": "T-104",
+        "code": "PRICE_PATTERN_REVIEW",
+        "severity": "strong"
+      },
+      {
+        "tender_id": "T-104",
+        "code": "BIDDER_RELATIONSHIP",
+        "severity": "strong"
+      },
+      {
+        "tender_id": "T-107",
+        "code": "BIDDER_RELATIONSHIP",
+        "severity": "context"
+      },
+      {
+        "tender_id": "T-109",
+        "code": "BIDDER_RELATIONSHIP",
+        "severity": "weak"
+      },
+      {
+        "tender_id": "T-104",
+        "code": "SHARED_RARE_PHRASE",
+        "severity": "moderate"
+      },
+      {
+        "tender_id": "T-104",
+        "code": "DOC_METADATA_MATCH",
+        "severity": "weak"
+      }
+    ],
+    "priority": {
+      "T-101": "Routine",
+      "T-102": "Routine",
+      "T-103": "Routine",
+      "T-104": "Urgent review",
+      "T-105": "Routine",
+      "T-106": "Routine",
+      "T-107": "Routine",
+      "T-108": "Routine",
+      "T-109": "Routine",
+      "T-110": "Routine",
+      "T-111": "Routine",
+      "T-112": "Routine"
+    }
+  },
+  "full": {
+    "alerts": [
+      {
+        "tender_id": "T-102",
+        "code": "PRICE_PATTERN_REVIEW",
+        "severity": "weak"
+      },
+      {
+        "tender_id": "T-104",
+        "code": "PRICE_PATTERN_REVIEW",
+        "severity": "strong"
+      },
+      {
+        "tender_id": "T-104",
+        "code": "BIDDER_RELATIONSHIP",
+        "severity": "strong"
+      },
+      {
+        "tender_id": "T-107",
+        "code": "BIDDER_RELATIONSHIP",
+        "severity": "context"
+      },
+      {
+        "tender_id": "T-109",
+        "code": "BIDDER_RELATIONSHIP",
+        "severity": "weak"
+      },
+      {
+        "tender_id": "T-104",
+        "code": "SHARED_RARE_PHRASE",
+        "severity": "moderate"
+      },
+      {
+        "tender_id": "T-104",
+        "code": "DOC_METADATA_MATCH",
+        "severity": "weak"
+      },
+      {
+        "tender_id": "T-111",
+        "code": "BENCHMARK_GAP",
+        "severity": "moderate"
+      },
+      {
+        "tender_id": "T-101",
+        "code": "REPEATED_WIN_SEQUENCE",
+        "severity": "moderate"
+      },
+      {
+        "tender_id": "T-103",
+        "code": "REPEATED_WIN_SEQUENCE",
+        "severity": "moderate"
+      },
+      {
+        "tender_id": "T-105",
+        "code": "REPEATED_WIN_SEQUENCE",
+        "severity": "moderate"
+      },
+      {
+        "tender_id": "T-106",
+        "code": "REPEATED_WIN_SEQUENCE",
+        "severity": "moderate"
+      },
+      {
+        "tender_id": "T-110",
+        "code": "REPEATED_WIN_SEQUENCE",
+        "severity": "moderate"
+      },
+      {
+        "tender_id": "T-112",
+        "code": "REPEATED_WIN_SEQUENCE",
+        "severity": "moderate"
+      }
+    ],
+    "priority": {
+      "T-101": "Review",
+      "T-102": "Routine",
+      "T-103": "Review",
+      "T-104": "Urgent review",
+      "T-105": "Review",
+      "T-106": "Review",
+      "T-107": "Routine",
+      "T-108": "Routine",
+      "T-109": "Routine",
+      "T-110": "Review",
+      "T-111": "Review",
+      "T-112": "Review"
+    }
+  }
+}

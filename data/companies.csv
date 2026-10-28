@@ -1,0 +1,16 @@
+company_id,name_en,owner_id,phone,address,emirate,size,disclosed_group,licence_no,licence_expiry,address_type
+C01,Sandstone Cleaning Services LLC (Synthetic),O-01,+971-6-5550101,Office 101 Al Majaz Tower,Sharjah,SME,,SYN-LIC-0101,2027-03-31,office
+C02,Pearl Facility Care LLC (Synthetic),O-02,+971-6-5550102,Office 202 Al Taawun Plaza,Sharjah,SME,,SYN-LIC-0102,2027-01-15,office
+C03,Oasis Hygiene Solutions LLC (Synthetic),O-03,+971-6-5550103,Shop 3 Al Nuaimiya Street,Ajman,SME,,SYN-LIC-0103,2026-12-31,office
+C04,Falcon Digital Supplies LLC (Synthetic),O-17,+971-4-5550104,Office 410 Business Bay Gate,Dubai,Large,,SYN-LIC-0104,2027-06-30,office
+C05,Crescent Tech Trading LLC (Synthetic),O-17,+971-6-5550105,Warehouse 5 Industrial Area 4,Sharjah,SME,,SYN-LIC-0105,2027-02-28,office
+C06,Dune Computer Systems LLC (Synthetic),O-06,+971-2-5550106,Office 66 Al Khalidiya Road,Abu Dhabi,Large,,SYN-LIC-0106,2027-05-31,office
+C07,Harbor IT Solutions LLC (Synthetic),O-07,+971-6-5550107,Office 7 Al Khan Street,Sharjah,SME,,SYN-LIC-0107,2027-04-30,office
+C08,Mirage Electronics Trading LLC (Synthetic),O-08,+971-4-5550108,Shop 8 Al Qusais Road,Dubai,SME,,SYN-LIC-0108,2026-08-31,office
+C09,Gulf Maintenance Group LLC (Synthetic),O-22,+971-6-5550109,Office 900 Corniche Tower,Sharjah,Large,G-1,SYN-LIC-0109,2027-09-30,office
+C10,Gulf Maintenance Technical Services LLC (Synthetic),O-22,+971-6-5550110,Office 901 Corniche Tower,Sharjah,SME,G-1,SYN-LIC-0110,2027-09-30,office
+C11,Coral Office Equipment LLC (Synthetic),O-11,+971-7-5550111,Office 11 Al Nakheel Road,Ras Al Khaimah,SME,,SYN-LIC-0111,2027-03-15,office
+C12,Saffron Catering Co LLC (Synthetic),O-12,+971-6-5550112,Smart Tower Business Centre Al Khan,Sharjah,SME,,SYN-LIC-0112,2027-07-31,business_centre
+C13,Date Palm Food Services LLC (Synthetic),O-13,+971-6-5550113,Smart Tower Business Centre Al Khan,Sharjah,SME,,SYN-LIC-0113,2027-05-31,business_centre
+C14,Breeze Cleaning Contractors LLC (Synthetic),O-14,+971-6-5550114,Office 14 Al Jurf Road,Ajman,SME,,SYN-LIC-0114,2027-02-28,office
+C15,Atlas Furniture & Supplies LLC (Synthetic),O-15,+971-6-5550115,Showroom 15 Al Wahda Street,Sharjah,Large,,SYN-LIC-0115,2027-08-31,office

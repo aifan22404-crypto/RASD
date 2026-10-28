@@ -1,0 +1,14 @@
+rasd.db
+.venv/
+__pycache__/
+.pytest_cache/
+.streamlit/secrets.toml
+
+.claude/
+
+# hackathon briefing material, not part of the app
+*.pdf
+*.docx
+rasd-starter-kit.zip
+# identical copy of SPEC.md
+RASD_BUILD_SPEC.md
